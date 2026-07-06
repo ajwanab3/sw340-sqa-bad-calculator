@@ -1,12 +1,12 @@
-# SW340 – Software Quality Assurance Bad Calculator
+# Calculator Quality Assurance
 
-> **Academic Team Project** developed as part of the SW340 Software Quality Assurance course at Princess Nourah bint Abdulrahman University.
+> Academic team project completed as part of the SW340 Software Quality Assurance course at Princess Nourah bint Abdulrahman University.
 
 ## Overview
 
-This project demonstrates the application of Software Quality Assurance (SQA) practices by refactoring a faulty Java-based calculator application. The project focuses on improving software quality through code refactoring, automated testing, static code analysis, and continuous integration.
+This project applies Software Quality Assurance (SQA) principles to improve a faulty Java-based calculator application.
 
-The objective was to identify and fix software defects while enhancing correctness, maintainability, reliability, and overall code quality using industry-standard tools and best practices.
+The application was refactored to fix defects, improve maintainability, implement automated unit testing, measure code coverage, perform static code analysis, and automate quality checks through a CI pipeline.
 
 ---
 
@@ -31,13 +31,21 @@ The objective was to identify and fix software defects while enhancing correctne
 - GitHub Actions
 
 ---
+## Tools
 
+- IntelliJ IDEA
+- Git
+- GitHub
+- GitHub Actions
+- SonarCloud
+- JaCoCo
+---
 ## Results
 
 - Corrected logical and structural defects in the original implementation
 - Improved software correctness and maintainability
 - Automated unit testing and code quality validation
-- Increased confidence through code coverage analysis
+- Improved test coverage using JaCoCo
 - Integrated Continuous Integration (CI) for automated quality checks
 
 ---
@@ -79,5 +87,4 @@ Through this project, I gained practical experience in:
 ---
 
 ## License
-
-This repository contains an academic project developed for educational purposes as part of the SW340 Software Quality Assurance course.
+This repository contains an academic project developed for educational purposes only.
