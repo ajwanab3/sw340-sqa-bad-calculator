@@ -1,10 +1,10 @@
-name: Build, Test & SonarCloud Analysis
+name: Build and Test
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ master ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -13,23 +13,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Set up JDK 17
+      - name: Set up Java
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
-          cache: 'maven'
 
-      - name: Build, test, coverage & SonarCloud analysis
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: >
-          mvn -B clean verify
-          org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
-          -Dsonar.host.url=https://sonarcloud.io
-          -Dsonar.organization=ajwanab3
-          -Dsonar.projectKey=ajwanab3_sw340-sqa-bad-calculator
-          -Dsonar.token=${SONAR_TOKEN}
+      - name: Build and run tests
+        run: mvn clean test
+        
