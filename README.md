@@ -6,7 +6,7 @@
 
 This project applies Software Quality Assurance (SQA) principles to improve a faulty Java-based calculator application.
 
-The application was refactored to fix defects, improve maintainability, implement automated unit testing, measure code coverage, perform static code analysis, and automate quality checks through a CI pipeline.
+The application was refactored to fix defects, improve maintainability, implement automated unit testing, measure code coverage, perform static code analysis, and automate the build and testing process through GitHub Actions.
 
 ---
 
@@ -17,7 +17,7 @@ The application was refactored to fix defects, improve maintainability, implemen
 - Added comprehensive unit tests using JUnit 5
 - Generated code coverage reports using JaCoCo
 - Performed static code analysis with SonarCloud
-- Automated testing and validation using GitHub Actions
+- Automated build and test execution using GitHub Actions
 
 ---
 
@@ -31,22 +31,23 @@ The application was refactored to fix defects, improve maintainability, implemen
 - GitHub Actions
 
 ---
+
 ## Tools
 
 - IntelliJ IDEA
 - Git
 - GitHub
-- GitHub Actions
-- SonarCloud
-- JaCoCo
+
 ---
+
 ## Results
 
 - Corrected logical and structural defects in the original implementation
 - Improved software correctness and maintainability
 - Automated unit testing and code quality validation
 - Improved test coverage using JaCoCo
-- Integrated Continuous Integration (CI) for automated quality checks
+- Performed static code quality analysis using SonarCloud
+- Integrated Continuous Integration (CI) for automated build and test execution
 
 ---
 
@@ -59,7 +60,7 @@ The refactoring process addressed several issues found in the original applicati
 - Weak input validation
 - Low maintainability
 - Lack of automated testing
-- Better code readability and modularity
+- Improved code readability and modularity
 
 ---
 
@@ -73,7 +74,7 @@ Through this project, I gained practical experience in:
 - Code Coverage Analysis
 - Static Code Analysis
 - Continuous Integration (CI)
-- Clean Code Practices
+- Clean Code Principles
 
 ---
 
@@ -84,7 +85,10 @@ Through this project, I gained practical experience in:
 - Latifa Almaneea
 - Reuf Alghonaimi
 
+Academic team project completed collaboratively as part of the SW340 Software Quality Assurance course.
+
 ---
 
 ## License
+
 This repository contains an academic project developed for educational purposes only.
